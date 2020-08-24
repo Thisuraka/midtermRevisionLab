@@ -19,14 +19,14 @@ public class readingCollections extends AppCompatActivity {
 
         Button btn1 = (Button)findViewById(R.id.but3);
         Button btn2 = (Button)findViewById(R.id.but4);
-        final String txt1 = "1";
-        final String txt2 = "2";
+        /*final Integer txt1 = 1;
+        final Integer txt2 = 2;*/
 
         btn1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(readingCollections.this, addReading.class);
-                intent.putExtra("number", txt1);
+                intent.putExtra("number", 1);
                 startActivity(intent);
             }
         });
@@ -35,7 +35,7 @@ public class readingCollections extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(readingCollections.this, addReading.class);
-                intent.putExtra("number", txt2);
+                intent.putExtra("number", 2);
                 startActivity(intent);
             }
         });
