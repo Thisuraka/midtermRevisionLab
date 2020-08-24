@@ -18,7 +18,7 @@ public class addReading extends AppCompatActivity {
 
     }
 
-    private void changeFragment(){
+    private void changeFragment(Fragment fragment){
 
         Intent intent = getIntent();
         Integer flag = intent.getIntExtra("number", 1);
