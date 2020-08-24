@@ -15,10 +15,17 @@
     ============================================================
     <string name="but3"> Books </string>
     <string name="but4"> Paper Article </string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
 
     ============================================================
     <string name="txtV3"> Books </string>
     <string name="txtV4"> Paper </string>
+
+    ============================================================
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="txtV5"> Title </string>
+    <string name="txtV6"> Author </string>
+    <string name="txtE3">  </string>
+    <string name="txtE4">  </string>
+    <string name="but5"> View </string>
 </resources>
